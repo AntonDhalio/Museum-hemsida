@@ -1,7 +1,8 @@
-.accordion-body{
+.accordion-main{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 2rem;
 }
 .accordion{
     width: 80%;
@@ -12,4 +13,8 @@
     width: 20%;
     padding-right: 2rem;
     padding-top: 1rem;
+}
+.dropdown-menu .dropdown-menu-end { 
+    right: 0; 
+    left: auto; 
 }

@@ -2,3 +2,13 @@
     display: flexbox;
     flex-direction: row;
 }
+.div-video{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.video-main{
+    width: 80%;
+    height: 80%;
+}
