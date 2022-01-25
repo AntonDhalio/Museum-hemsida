@@ -1,0 +1,15 @@
+.accordion-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.accordion{
+    width: 80%;
+    height: 80%;
+}
+.accordion-img{
+    height: 20%;
+    width: 20%;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
