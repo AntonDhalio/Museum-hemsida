@@ -9,13 +9,14 @@
         <link rel="stylesheet" href="index.css" />
         <link rel="stylesheet" href="slideshow.css" />
         <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="Stylesheet.css">
         <script src="https://kit.fontawesome.com/d1b708bafd.js" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-latest.js"></script>
         <script src="jquery.js"></script>
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: burlywood;">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Kökars konsthus</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,16 +39,19 @@
                       <li><a class="dropdown-item" href="#scrollspyHeading4">Våra sponsorer</a></li>                     
                     </ul>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Info.html">Om oss</a>
+                  </li>
                 </ul>
               </div>
             </div>
           </nav>
 
-          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy" tabindex="0">
             <h4 id="scrollspyHeading1">Vad innebär sponsring?</h4>
-            <p>...</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit autem, eveniet quis sapiente, obcaecati sint ipsa aliquam adipisci odio quaerat praesentium nesciunt nemo nostrum. Vitae, delectus? Exercitationem perspiciatis expedita cumque!</p>
             <h4 id="scrollspyHeading2">Bli sponsor</h4>
-            <p>...</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, consequuntur excepturi necessitatibus iusto incidunt veniam aut vel iure similique dolore illo dicta illum iste repellendus reprehenderit sit inventore quae minima.</p>
             <h4 id="scrollspyHeading3">Sponsoringsklasserna</h4>
             
           <div class="accordion-main">
@@ -94,7 +98,18 @@
               </div>
           </div>
             <h4 id="scrollspyHeading4">Våra sponsorer</h4>
-            <p>...</p>
+            <div class="sponsor-images">
+              <div class="sponsor-gold">
+                  <img src="Bilder/BradPitt1.png" class="reg-sponsor">             
+                  <img src="Bilder/HughJackman1.png" class="reg-sponsor">                
+                  <img src="Bilder/JuliaRobert1.png" class="reg-sponsor">        
+              </div>
+              <div class="sponsor-silver">
+                <img src="Bilder/BettyWhite1.png" class="reg-sponsor">
+                <img src="Bilder/TomHanks1.png" class="reg-sponsor">
+                <img src="Bilder/AnthonyHopkins1.png" class="reg-sponsor">
+              </div>            
+            </div>
           </div>
           <script src="js/bootstrap.js"></script>
     </body>

@@ -18,3 +18,44 @@
     right: 0; 
     left: auto; 
 }
+
+.scrollspy{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+#scrollspyHeading1{
+    margin-top: 5rem;
+}
+#scrollspyHeading2{
+    margin-top: 5rem;
+}
+#scrollspyHeading3{
+    margin-top: 5rem;
+}
+#scrollspyHeading4{
+    margin-top: 5rem;
+}
+
+.sponsor-images{
+    display: flexbox;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sponsor-gold{
+    display: flexbox;
+    flex-direction: row;
+    justify-content: center;
+}
+.reg-sponsor{
+   
+    object-fit: cover;
+    margin-right: 5rem;
+    margin-bottom: 3rem;    
+}
+
+p{
+    
+}
