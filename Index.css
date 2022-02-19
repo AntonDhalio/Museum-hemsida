@@ -3,6 +3,20 @@ body{
     background-size: cover;
 }
 
+.main-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.index-text{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
 .nav{
     display: flexbox;
     flex-direction: row;
